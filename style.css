@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open-Sans', sans-serif;
+  background-color: #D5F5E3;
+  font-size: 1em;
+  line-height: 175%;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #5499C7;
+  line-height: 75%;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+p {
+  line-height: 130%
+}
+
+a {
+  text-decoration: none;
+  color: #5499C7;
+}
+
+a:hover {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+}
+
+.all {
+  text-align: center;
+}
+
+.teton {
+  width: 201px;
+  height: 268px;
+}
+
+.table {
+  border-style: dotted none none none;
+  border-color: #F1948A;
+  border-width: 5px;
+  padding: 25px;
+}
+
+@media (max-width: 960px) {
+  .table {
+    padding: 5px;
+  }
+}
+
+.profile {
+  border-style: dotted;
+  border-color: #F1948A;
+  border-width: 5px;
+  padding: 25px;
+}
+
+.links {
+  display: inline-block;
+  align-content: center;
+}
